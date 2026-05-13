@@ -240,6 +240,17 @@
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-66247c6 {
+  display: contents !important;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-66247c6 > .elementor-element {
+  flex: initial !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  width: auto !important;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-9ff0a06 {
   justify-self: start;
 }
 
