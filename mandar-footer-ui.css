@@ -27,7 +27,18 @@
 }
 
 .site-footer.sbmart-footer-builder .e-con-inner {
-  width: min(1180px, calc(100% - 32px));
+  box-sizing: border-box;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1180px !important;
+  width: calc(100% - 32px) !important;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-712103f,
+.site-footer.sbmart-footer-builder .elementor-element-ec98571,
+.site-footer.sbmart-footer-builder .elementor-element-cad0dd5 {
+  box-sizing: border-box;
+  width: 100% !important;
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-712103f {
