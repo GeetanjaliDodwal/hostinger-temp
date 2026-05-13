@@ -156,11 +156,17 @@
   margin-bottom: 24px;
 }
 
-.site-footer.sbmart-footer-builder .site-logo img {
+.site-footer.sbmart-footer-builder .site-logo {
+  background: #fff url("https://mandarinternational.com/wp-content/uploads/2026/05/1-scaled.jpg") center / contain no-repeat;
   border-radius: 18px;
-  max-height: 82px;
-  object-fit: contain;
-  width: auto;
+  display: inline-block;
+  height: 82px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.site-footer.sbmart-footer-builder .site-logo img {
+  display: none !important;
 }
 
 .site-footer.sbmart-footer-builder .rt-contact-info {
