@@ -303,9 +303,32 @@
 }
 
 .site-footer.sbmart-footer-builder .rt-social-item a i {
-  display: block;
+  align-items: center;
+  display: inline-flex;
+  font-family: Arial, sans-serif !important;
   font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  justify-content: center;
   line-height: 1;
+  text-transform: uppercase;
+}
+
+.site-footer.sbmart-footer-builder .rt-social-item .icon-rt-facebook::before {
+  content: "f";
+}
+
+.site-footer.sbmart-footer-builder .rt-social-item .icon-rt-twitter-1::before {
+  content: "x";
+}
+
+.site-footer.sbmart-footer-builder .rt-social-item .icon-rt-instagram-1::before {
+  content: "ig";
+  font-size: 11px;
+}
+
+.site-footer.sbmart-footer-builder .rt-social-item .icon-rt-pinterest-1::before {
+  content: "p";
 }
 
 .site-footer.sbmart-footer-builder .rt-social-item a:hover,
