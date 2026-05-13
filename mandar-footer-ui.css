@@ -139,7 +139,13 @@
   grid-template-columns: minmax(260px, 1.35fr) repeat(4, minmax(150px, 1fr));
 }
 
-.site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner > .elementor-element {
+.site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner > b {
+  display: contents;
+  font-weight: inherit;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner > .elementor-element,
+.site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner > b > .elementor-element {
   flex: initial !important;
   max-width: none !important;
   min-width: 0 !important;
@@ -185,6 +191,7 @@
 .site-footer.sbmart-footer-builder .sbmart-navbar .menu-item {
   color: var(--footer-muted);
   font-size: 15px;
+  font-weight: 500;
   line-height: 1.55;
 }
 
