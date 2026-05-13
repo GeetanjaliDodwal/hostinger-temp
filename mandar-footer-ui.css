@@ -40,11 +40,18 @@
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-712103f > .e-con-inner {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
-  align-items: center;
+  align-items: center !important;
+  display: grid !important;
   gap: 28px;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
   padding: 34px 10px;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-712103f > .e-con-inner > .elementor-element {
+  flex: initial !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  width: auto !important;
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-c611e9d .main-title {
@@ -115,10 +122,17 @@
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner {
-  align-items: flex-start;
-  display: grid;
-  grid-template-columns: minmax(240px, 1.35fr) repeat(4, minmax(145px, 1fr));
+  align-items: flex-start !important;
+  display: grid !important;
   gap: 34px;
+  grid-template-columns: minmax(260px, 1.35fr) repeat(4, minmax(150px, 1fr));
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner > .elementor-element {
+  flex: initial !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  width: auto !important;
 }
 
 .site-footer.sbmart-footer-builder .site-branding {
@@ -194,10 +208,25 @@
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-cad0dd5 > .e-con-inner {
-  align-items: center;
-  display: grid;
-  grid-template-columns: minmax(180px, 1fr) auto minmax(180px, 1fr);
+  align-items: center !important;
+  display: grid !important;
   gap: 18px;
+  grid-template-columns: minmax(180px, 1fr) auto minmax(180px, 1fr);
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-cad0dd5 > .e-con-inner > .elementor-element {
+  flex: initial !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  width: auto !important;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-66247c6 {
+  justify-self: start;
+}
+
+.site-footer.sbmart-footer-builder .elementor-element-9ad6906 {
+  justify-self: end;
 }
 
 .site-footer.sbmart-footer-builder .elementor-element-9ff0a06 img {
@@ -220,6 +249,13 @@
   justify-content: flex-end;
 }
 
+.site-footer.sbmart-footer-builder .rt-social-icon label {
+  color: var(--footer-muted);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 4px 0 0;
+}
+
 .site-footer.sbmart-footer-builder .rt-social-item a {
   align-items: center;
   background: var(--footer-accent-soft);
@@ -231,6 +267,12 @@
   width: 38px;
 }
 
+.site-footer.sbmart-footer-builder .rt-social-item a i {
+  display: block;
+  font-size: 15px;
+  line-height: 1;
+}
+
 .site-footer.sbmart-footer-builder .rt-social-item a:hover,
 .site-footer.sbmart-footer-builder .rt-social-item a:focus-visible {
   background: var(--footer-accent);
@@ -240,7 +282,7 @@
 
 @media (max-width: 1024px) {
   .site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 
   .site-footer.sbmart-footer-builder .elementor-element-1aabe90 {
@@ -257,7 +299,7 @@
   .site-footer.sbmart-footer-builder .elementor-element-712103f > .e-con-inner,
   .site-footer.sbmart-footer-builder .elementor-element-ec98571 > .e-con-inner,
   .site-footer.sbmart-footer-builder .elementor-element-cad0dd5 > .e-con-inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 
   .site-footer.sbmart-footer-builder .fluentform_wrapper_4 .ff-t-container {
@@ -278,10 +320,13 @@
   }
 
   .site-footer.sbmart-footer-builder .elementor-element-9ff0a06,
+  .site-footer.sbmart-footer-builder .elementor-element-66247c6,
+  .site-footer.sbmart-footer-builder .elementor-element-9ad6906,
   .site-footer.sbmart-footer-builder .copyright-text,
   .site-footer.sbmart-footer-builder .rt-social-icon,
   .site-footer.sbmart-footer-builder .rt-social-item {
     justify-content: center;
+    justify-self: center;
     text-align: center;
   }
 }
